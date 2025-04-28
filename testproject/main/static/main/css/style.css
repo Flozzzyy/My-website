@@ -1,0 +1,85 @@
+body {  
+    background: rgb(42, 42, 42);  
+}  
+
+aside {  
+    float: left;  
+    background: #181818;  
+    width: 20%;  
+    padding: 5%;  
+    height: 100vh;  
+    color: floralwhite;  
+    border-right: 9px solid #4d4d4d;  
+}  
+
+aside img {  
+    float: left;  
+    position: relative;  
+    right: 70px;  
+}  
+
+aside .logo {  
+    font-size: 40px;  
+    margin-left: 10px;  
+    font-weight: bold;  
+    position: relative;  
+    bottom: 100px;  
+    left: 100px;  
+}  
+
+aside h3 {  
+    margin-top: 1px;  
+    font-size: 28px;  
+    position: relative;  
+    bottom: 30px;  
+}  
+
+aside ul {  
+    color: #FFFFFF;  
+    padding: 0; /* Убедитесь, что убрали отступы */  
+}  
+
+aside ul a {  
+    text-decoration: none; /* Убираем подчеркивание */  
+}  
+
+aside ul li {  
+    color: white;  
+    display: block;  
+    margin-top: 20px;  
+    transition: transform .4s ease; /* Плавное изменение */  
+}  
+
+aside ul li:hover, aside ul a:hover {  
+    color: rgb(255, 80, 80);  
+    transform: scale(1.05); /* Плавное увеличение */  
+}  
+
+main {   
+    overflow: auto; /* Обеспечиваем корректное обтекание для main */   
+}  
+
+.features {  
+    display: flex; /* Применяем Flexbox */  
+    flex-direction: column; /* Вертикальное размещение */  
+    align-items: center; /* Центрируем по горизонтали */  
+    justify-content: center; /* Центрируем по вертикали (при установлении высоты) */  
+    color: white; /* Цвет текста */  
+    margin-top: 0px; /* Отступ сверху */  
+    height: 100vh; /* Задаём высоту блока */  
+}  
+.features h1{
+    font-size: 50px;
+
+}
+.features p{
+    max-width: 300px;
+    margin-top: 20px auto;
+}
+.contacs {
+    font-size: 50px;
+    color: #ffffff;
+    position: relative;
+    left: 200px;
+    
+}

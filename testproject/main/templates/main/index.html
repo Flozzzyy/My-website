@@ -1,0 +1,12 @@
+<!-- index.html -->  
+{% extends 'main/layout.html' %}  
+
+{% block title %}{{title}}{% endblock %}  
+
+{% block content %}  
+    <div class="features">  
+        <h1>{{title}}</h1>  
+        <p>Добро пожаловать на нашу главную страницу!</p>  
+        <button class="btn btn-warning" onclick="location.href='{% url 'about' %}'">На страницу про нас</button>  
+    </div>  
+{% endblock %}  
